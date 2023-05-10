@@ -1,4 +1,4 @@
-import { SingleEvent } from '@/pages/src/components/events/single-event';
+import SingleEvent from '@/pages/src/components/events/single-event';
 
 const Page = ({data}) => <SingleEvent data={data} />
 export default Page
