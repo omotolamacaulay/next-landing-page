@@ -1,4 +1,4 @@
-import { CatEvents } from '@/pages/src/components/events/catEvents';
+import CatEvents from '@/pages/src/components/events/catEvents';
 const EventsCat = ({data, pageName }) => <CatEvents data={data} pageName={pageName} />
 export default EventsCat;
 

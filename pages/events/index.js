@@ -1,4 +1,4 @@
-import { EventsPage } from '../src/components/events/events-page';
+import EventsPage from '../src/components/events/events-page';
 const EventCity = ({data}) => {
     return <EventsPage data={data} />
 }
