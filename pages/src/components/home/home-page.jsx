@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export const Homepage = ({data}) => {
+const Homepage = ({data}) => {
     return (
         <div className="home_body">
             {data.map(ev => <Link key={ev.id} href={`/events/${ev.id}`} className="card">
@@ -16,3 +16,5 @@ export const Homepage = ({data}) => {
         </div>
     )
 }
+
+export default Homepage;

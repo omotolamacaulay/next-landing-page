@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export const EventsPage = ({data}) => {
+const EventsPage = ({data}) => {
   return (
       <div className="events_page">
           {/* <h1>Events</h1> */}
@@ -13,3 +13,5 @@ export const EventsPage = ({data}) => {
       </div>
   )
 }
+
+export default EventsPage;

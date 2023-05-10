@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-export const Header = () => {
+const Header = () => {
   return (
     <header>
       <div>
@@ -32,3 +32,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;
